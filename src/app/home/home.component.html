@@ -1,0 +1,16 @@
+<body>
+  <div class="mainContainer" *ngFor="let item of post; index as i">
+    <div class="one">
+      {{ item.data.title }}
+    </div>
+    <div class="pictureImg">
+      <img class="two" src="{{ item.data.thumbnail }}" alt="Image not shown" />
+    </div>
+    <div class="link">
+      <a href="{{ item.data.url }}" alt="Link broken">Get a better look!</a>
+      <a href="">Share</a>
+      <a href="">Save</a>
+      <a href="">. . .</a>
+    </div>
+  </div>
+</body>

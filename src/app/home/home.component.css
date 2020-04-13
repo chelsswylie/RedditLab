@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(119, 64, 64);
+}
+
+.mainContainer {
+  width: 100%;
+  padding: 15px;
+  margin: 5px;
+  /* background-color: rgb(4, 119, 165); */
+  background-color: rgb(51, 48, 48);
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 45px;
+}
+.one {
+  padding-left: 50px;
+}
+.pictureImg {
+  height: 10%;
+  padding-left: 50px;
+}
+
+.two {
+  padding-top: 2vh;
+}
+
+.link {
+  font-size: 25px;
+}
+
+a {
+  padding: 50px;
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
